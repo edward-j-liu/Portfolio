@@ -12,6 +12,15 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage:{
+        intro: "url('/backs/damn.jpg')",
+        leaves: "url('/backs/leaves.jpeg')",
+        leavesred: "url('/backs/leavesred.jpeg')",
+        glass: "url('/backs/glass.jpeg')",
+        building: "url('/backs/italybuilding.jpeg')",
+        stands: "url('/backs/offseasonstands.jpg')",
+        disciples: "url('/backs/disciples.jpg')",
+      }
     },
   },
   plugins: [],

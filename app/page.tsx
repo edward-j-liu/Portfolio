@@ -1,101 +1,56 @@
 import Image from "next/image";
+import Favorites from "./components/Favorites";
+import Projects from "./components/Projects";
+import Nav from "./components/Nav";
+import Shrinker from "./components/Shrinker";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    return (
+        <div className={"text-blue-950"}>
+            <Nav min={750} />
+            <div className={"bg-intro h-screen w-screen bg-cover bg-fixed bg-middle items-center justify-center"}>
+                <div className={"pt-72 text-white text-9xl"}>
+                    <Shrinker big={1} small={0.85} top={0} bottom={500} text={"Hello, my name is Edward Liu"}/>
+                </div>
+                {/*<p className={"pt-52 align-middle text-center text-9xl font-bold text-white"}>Hello,</p>*/}
+                {/*<p className={"py-3 text-center text-8xl font-bold text-white"}>My name is Edward Liu</p>*/}
+            </div>
+            <div className={"w-screen h-fit bg-white md:p-40 sm:p-32 p-10"}>
+                <p className={"text-3xl pb-4"}>Welcome to my Portfolio!</p>
+                <p className={"text-2xl"}>My name is Edward Liu, Class of 26’ at Los Altos High School. In this
+                    portfolio,
+                    my object is to complete the hardest task known to man: sharing facts about one's own personality
+                    and
+                    achievements, especially those relating to robotics.
+                </p>
+            </div>
+            <div className={"bg-building bg-cover bg-fixed bg-middle"}>
+                <div className={"justify-self-center"}>
+                    <p className={"text-center align-middle py-40 text-9xl font-bold text-white"}>About me</p>
+                </div>
+            </div>
+            <div className={"flex flex-col bg-white md:px-32 sm:px-24 md:pt-32 sm:pt-24 text-2xl"}>
+                <p className={"text-2xl"}>In the interest of time, and because I wanted to make a cool scroller,
+                    here
+                    is a quick overview of some of my favorite things in no particular order!</p>
+                <Favorites/>
+                <p>
+                    In my limited free time, I enjoy doing many very human activities. Although video games are fun,
+                    recently I’ve been trying to play less of them as I feel very burnt out from them. I enjoy
+                    photography; all of the pictures on this website were taken by me. I'm always listening to music. I
+                    like all genres, but pop songs from the 2010's and classic rock are my favorites. Other than that,
+                    the only
+                    sport I do is archery, which I'm average at. At school, I am a part of mock trial, chess, and
+                    robotics clubs, which are all pretty large time commitments, yet I enjoy every second of all of
+                    them.
+                </p>
+                <p className={"my-4"}>Now that personal stuff is out of the way, without further ado, here is
+                    what I've spent fall semester of 24-25 doing!</p>
+            </div>
+            <div className={"pb-24"}>
+                <p className={"text-center text-5xl py-8"}>PORTFOLIO</p>
+                <Projects/>
+            </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+    );
 }
