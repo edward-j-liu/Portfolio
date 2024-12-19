@@ -7,8 +7,8 @@ export default function footer(){
                 <p className={"overflow-x-visible snap-start snap-mandatory pb-4"}>color: Blue</p>
                 <p className={"overflow-x-visible snap-start snap-mandatory pb-4"}>school subject: Mathematics</p>
                 <p className={"overflow-x-visible snap-start snap-mandatory pb-4"}>video Game: Counter Strike</p>
-                <p className={"overflow-x-visible snap-start snap-mandatory pb-4"}>song: Sweet Child o' Mine by Guns 'n Roses </p>
-                <p className={"overflow-x-visible snap-start snap-mandatory pb-4"}>fast food place: In 'n Out</p>
+                <p className={"overflow-x-visible snap-start snap-mandatory pb-4"}>song: Sweet Child o&apos;` Mine by Guns &rsquo;n Roses </p>
+                <p className={"overflow-x-visible snap-start snap-mandatory pb-4"}>fast food place: In &rsquo;n Out</p>
                 <p className={"overflow-x-visible snap-start snap-mandatory pb-4"}>board game: Chess</p>
                 <p className={"overflow-x-visible snap-start snap-mandatory pb-4"}>meme: Amongus ඞ</p>
                 <p className={"overflow-x-visible snap-start snap-mandatory pb-4"}>candy: Dark Chocolate</p>

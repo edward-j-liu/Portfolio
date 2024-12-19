@@ -1,6 +1,7 @@
 "use client"
 import {motion} from "framer-motion";
 import {useState, useEffect} from "react";
+import Link from 'next/link'
 
 export default function Nav({min}:{min: number}){
     const [lastScrollY, setLastScrollY] = useState(0);
@@ -27,7 +28,7 @@ export default function Nav({min}:{min: number}){
         <motion.div
             className={'w-screen fixed bg-slate-900 z-40 border-b-2'}
             animate={{y}}
-            transition={{ ease: "easeOut", duration: 0.7 }}
+            transition={{ ease: "easeOut", duration: 0.6 }}
         >
             <nav
                 className={
@@ -35,10 +36,10 @@ export default function Nav({min}:{min: number}){
                     'uppercase text-white font-semibold gap-4'
                 }
             >
-                <a href="/" className={"hover:text-sky-300"}>Home</a>
-                <a href="/offseason" className={"hover:text-sky-300"}>Competitions</a>
-                <a href="/teaching" className={"hover:text-sky-300"}>Teaching</a>
-                <a href="/" className={"hover:text-sky-300"}>Intake</a>
+                <Link href="/" className={"hover:text-sky-300"}>Home</Link>
+                <Link href="/offseason" className={"hover:text-sky-300"}>Competitions</Link>
+                <Link href="/teaching" className={"hover:text-sky-300"}>Teaching</Link>
+                <Link href="/code" className={"hover:text-sky-300"}>Code</Link>
             </nav>
         </motion.div>)
 }

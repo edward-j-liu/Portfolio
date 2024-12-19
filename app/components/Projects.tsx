@@ -10,7 +10,6 @@ export default function Projects(){
                 <Image height={400} width={400} src={"/offseason.jpg"} alt={"offeseason competitions"}
                        className={"object-contain aspect-square rounded-3xl"} quality={100}/>
                 </a>
-
             </div>
             <div
                 className={"relative w-2/3 aspect-square hover:shadow-green-900 hover:shadow-2xl rounded-3xl hover:scale-110 justify-self-center"}>

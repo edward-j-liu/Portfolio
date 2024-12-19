@@ -15,7 +15,7 @@ export default {
       backgroundImage:{
         intro: "url('/backs/damn.jpg')",
         leaves: "url('/backs/leaves.jpeg')",
-        leavesred: "url('/backs/leavesred.jpeg')",
+        clouds: "url('/backs/clouds.jpg')",
         glass: "url('/backs/glass.jpeg')",
         building: "url('/backs/italybuilding.jpeg')",
         stands: "url('/backs/offseasonstands.jpg')",
