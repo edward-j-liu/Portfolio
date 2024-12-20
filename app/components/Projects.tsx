@@ -21,10 +21,11 @@ export default function Projects(){
             </div>
             <div
                 className={"relative w-2/3 aspect-square hover:shadow-black hover:shadow-2xl rounded-3xl hover:scale-110 justify-self-center"}>
+                <a href={"/code"}>
                 <p className={"absolute inset-0 flex items-center justify-center text-xl text-white bg-black bg-opacity-30 rounded-3xl"}> Code Projects</p>
                 <Image height={400} width={400} src={"/backs/code.png"} alt={"Code"}
                        className={"object-contain aspect-square rounded-3xl"} quality={100}/>
-
+                </a>
             </div>
         </div>
     )
