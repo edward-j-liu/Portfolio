@@ -8,7 +8,7 @@ export default function TeachingPage(){
     return(
         <div>
             <Nav min={0}/>
-            <div className={"flex flex-col bg-white overflow-visible indent-12"}>
+            <div className={"flex flex-col bg-white overflow-visible indent-12 text-slate-900"}>
                 <div className={"flex w-screen bg-disciples bg-cover bg-fixed bg-bottom items-center justify-center"}>
                     <div className={"text-white text-9xl align-middle py-20"}>
                         <Shrinker text={"Teaching"} big={1} small={0.8} top={0} bottom={500}/>

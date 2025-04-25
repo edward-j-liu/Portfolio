@@ -5,7 +5,7 @@ import Shrinker from "./components/Shrinker";
 
 export default function Home() {
     return (
-        <div className={"text-blue-950"}>
+        <div className={"text-blue-950 bg-white"}>
             <Nav min={500} />
             <div className={"bg-intro h-screen w-screen bg-cover bg-fixed bg-middle items-center justify-center"}>
                 <div className={"pt-72 text-white text-9xl"}>

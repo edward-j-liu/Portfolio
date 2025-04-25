@@ -7,7 +7,7 @@ export default function OffseasonPage(){
     return(
         <div>
             <Nav min={0}/>
-        <div className={"flex flex-col bg-white indent-12"}>
+        <div className={"flex flex-col bg-white indent-12 text-slate-900"}>
             <div className={"flex w-screen bg-stands bg-cover bg-fixed bg-bottom items-center justify-center"}>
                 <div className={"text-white text-9xl align-middle py-20"}>
                     <Shrinker text={"Offseason Competitions"} big={1} small={0.8} top={0} bottom={500}/>

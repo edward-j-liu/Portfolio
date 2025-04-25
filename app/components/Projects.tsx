@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Projects(){
     return(
-        <div className={"grid grid-cols-3 w-full"}>
+        <div className={"grid grid-cols-3 w-full bg-white"}>
             <div className={"relative w-2/3 aspect-square hover:shadow-blue-900 hover:shadow-2xl rounded-3xl hover:scale-110 justify-self-center"}>
                 <a href={"/offseason"}>
                 <p className={"absolute inset-0 flex items-center justify-center text-2xl text-white bg-black bg-opacity-30 rounded-3xl"}> Offseason
