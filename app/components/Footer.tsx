@@ -12,7 +12,7 @@ export default function Footer(){
             <p className={"text-left text-3xl text-white"}>Contact Me</p>
             <div className={"text-left text-white"}>
                 <p className={"py-1"}>Email: 100031021@mvla.net</p>
-                <p className={"py-1"}>Phone: 650-917-9020</p>
+                {/*<p className={"py-1"}>Phone: 650-917-9020</p>*/}
                 <p className={"py-1"}>Mailing: 201 Almond Avenue</p>
                 <p className={"text-2xl py-2"}>Socials:</p>
                 <div className={"flex flex-row gap-3"}>
