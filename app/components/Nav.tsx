@@ -8,7 +8,7 @@ export default function Nav({min}:{min: number}){
     const [y,setY] = useState(-100);
     const handleScroll = () => {
         if (typeof window !== 'undefined') {
-            if (window.scrollY < lastScrollY && window.scrollY > min) {
+            if (window.scrollY <= lastScrollY && window.scrollY > min) {
                 setY(0);
             } else {
                 setY(-100);
@@ -20,7 +20,6 @@ export default function Nav({min}:{min: number}){
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
-
         };
     }, [lastScrollY]);
 
@@ -37,9 +36,9 @@ export default function Nav({min}:{min: number}){
                 }
             >
                 <Link href="/" className={"hover:text-sky-300"}>Home</Link>
-                <Link href="/offseason" className={"hover:text-sky-300"}>Competitions</Link>
-                <Link href="/teaching" className={"hover:text-sky-300"}>Teaching</Link>
-                <Link href="/code" className={"hover:text-sky-300"}>Code</Link>
+                <Link href="/Education" className={"hover:text-sky-300"}>Education</Link>
+                <Link href="/Extracurriculars" className={"hover:text-sky-300"}>Extracurriculars</Link>
+                <Link href="/Hobbies" className={"hover:text-sky-300"}>Hobbies</Link>
             </nav>
         </motion.div>)
 }

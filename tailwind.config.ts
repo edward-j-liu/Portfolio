@@ -20,8 +20,21 @@ export default {
         building: "url('/backs/italybuilding.jpeg')",
         stands: "url('/backs/offseasonstands.jpg')",
         disciples: "url('/backs/disciples.jpg')",
-      }
+      },
+      animation: {
+        fadeIn: "fadeIn 0.2s ease-out",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": {transform: "scale(0.95)" },
+          "100%": {ransform: "scale(1)" },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [
+      require('@nauverse/tailwind-dot-grid-backgrounds'),
+      require('@codaworks/react-glow/tailwind')
+
+  ],
 } satisfies Config;

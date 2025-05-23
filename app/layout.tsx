@@ -24,7 +24,7 @@ export default function RootLayout({
         className = {space.className}
       >
         {children}
-        <Footer />
+        {/*<Footer />*/}
       </body>
     </html>
   );
