@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Footer from '@/app/components/Footer'
+// import Footer from '@/app/components/Footer'
 import {Space_Grotesk} from 'next/font/google'
 
 const space = Space_Grotesk({

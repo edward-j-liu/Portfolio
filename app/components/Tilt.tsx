@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState} from "react";
 
 export default function Tilt({children}: Readonly<{ children: React.ReactNode; }>){
     const [tilt, setTilt] = useState({ x: 0, y: 0 });

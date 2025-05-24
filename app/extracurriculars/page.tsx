@@ -1,13 +1,13 @@
 "use client";
 import Nav from "@/app/components/Nav";
-import Quotes from "@/app/components/Quotes";
-import Image from "next/image";
+// import Quotes from "@/app/components/Quotes";
+// import Image from "next/image";
 import Back from "@/app/components/Back"
-import {SimpleGlow, Glow, GlowContainer} from "@/app/components/Glow";
+import {Glow, GlowContainer} from "@/app/components/Glow";
 import {extracurriculars, event} from "@/app/data/extracurriculars"
 import Shrinker from "@/app/components/Shrinker"
-import Modal from "@/app/components/Modal";
-import {useRef, useState} from "react";
+// import Modal from "@/app/components/Modal";
+// import {useRef, useState} from "react";
 
 function Card({thing}:{thing:event}){
     const color = thing.for === "Mock Trial" ? "rgb(227, 99, 25)" : thing.for === "Robotics" ? "rgb(0, 103, 237)" : thing.for === "Archery" ? "rgb(10, 120, 0)" : "rgb(200,200,200)"

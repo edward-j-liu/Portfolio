@@ -1,7 +1,6 @@
 "use client";
 
 import { motion, useMotionValue, useMotionTemplate } from "framer-motion";
-import {useState} from "react";
 import {education} from "@/app/data/education"
 
 
@@ -9,7 +8,6 @@ export default function Glow() {
     const mouseX = useMotionValue(0);
     const mouseY = useMotionValue(0);
     const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-        const { left, top} = e.currentTarget.getBoundingClientRect();
         // mouseX.set(e.clientX - left);
         // mouseY.set(e.clientY - top);
         mouseX.set(e.clientX);

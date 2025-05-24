@@ -1,10 +1,9 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Nav from "@/app/components/Nav";
-import Shrinker from "@/app/components/Shrinker";
+// import Shrinker from "@/app/components/Shrinker";
 import Back from "@/app/components/Back";
 import {education} from "@/app/data/education"
-import {SimpleGlow, Glow, GlowContainer} from "@/app/components/Glow";
-import GlowList from "@/app/components/GlowList"
+import {Glow, GlowContainer} from "@/app/components/Glow";
 export default function OffseasonPage(){
     return(
         <div>

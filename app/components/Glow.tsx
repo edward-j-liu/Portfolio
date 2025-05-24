@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useMotionValue, useMotionTemplate } from "framer-motion";
-import {useRef, useState, createContext, useContext, ReactNode, useEffect} from "react";
+import {useRef, useState, createContext, useContext, useEffect} from "react";
 
 export function SimpleGlow({ children, styling, color}: { children: React.ReactNode, styling:string, color:string}) {
     const mouseX = useMotionValue(0);

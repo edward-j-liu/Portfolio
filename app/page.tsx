@@ -1,8 +1,6 @@
-import Favorites from "./components/Favorites";
 import Projects from "./components/Projects";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer"
-import Shrinker from "./components/Shrinker";
 
 export default function Home() {
     return (
