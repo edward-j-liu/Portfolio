@@ -13,7 +13,7 @@ function Card({thing}:{thing:event}){
     const color = thing.for === "Mock Trial" ? "rgb(227, 99, 25)" : thing.for === "Robotics" ? "rgb(0, 103, 237)" : thing.for === "Archery" ? "rgb(10, 120, 0)" : "rgb(200,200,200)"
     // const border = thing.for === "Mock Trial" ? "rgb(154,73,26)" : thing.for === "Robotics" ? "rgb(25,86,166)" : thing.for === "Archery" ? "rgb(16,77,10)" : "rgb(159,159,159)"
     return(
-        <Glow styling={"rounded-2xl sm:w-2/3 w-full p-[2] bg-zinc-900 color-white"} color={color} strength={'90%'}>
+        <Glow styling="rounded-2xl sm:w-2/3 w-full bg-zinc-900 color-white p-1" color={color} strength={'90%'}>
             <div className={"rounded-2xl w-full h-full bg-zinc-900 p-6 opacity-1 hover:opacity-[0.90]"}>
                 <div className={"w-full grid grid-cols-2 content-start"}>
                     <div className={"align-self-end"}><p className={'font-light text-sm'} style={{color: color}}>{thing.for}</p></div>

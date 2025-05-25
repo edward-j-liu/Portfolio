@@ -6,6 +6,11 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+      'p-[0.5]',
+      'p-1',
+    'p-2', // only needed here if you're generating it dynamically
+  ],
   theme: {
     extend: {
       colors: {

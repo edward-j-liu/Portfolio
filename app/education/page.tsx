@@ -14,7 +14,7 @@ export default function OffseasonPage(){
                 <GlowContainer>
                 {education.map((year, key) => {
                         return (
-                            <Glow key={key} styling={"rounded-2xl sm:w-2/3 w-full p-[1] bg-zinc-900"} color={"rgb(200,200,220)"} strength={'70%'}>
+                            <Glow key={key} styling={"rounded-2xl sm:w-2/3 w-full p-1 bg-zinc-900"} color={"rgb(200,200,220)"} strength={'70%'}>
                                 <div className={"rounded-2xl w-full h-full bg-zinc-900 p-6 opacity-1 hover:opacity-[0.95]"}>
                                     <p className={"text-2xl font-bold mb-12"}>{year.year}</p>
                                     <div className={"flex flex-col pt-4"}>
