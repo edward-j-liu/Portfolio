@@ -8,7 +8,7 @@ export default function Projects(){
             <div className={"relative w-full aspect-square hover:shadow-green-900 hover:shadow-2xl rounded-3xl hover:scale-110 justify-self-center"}>
                 <a href={"/education"}>
                 <p className={"absolute inset-0 flex items-center justify-center md:text-2xl sm:text-xl text-white bg-black bg-opacity-30 rounded-3xl"}>Education</p>
-                <Image height={400} width={400} src={"/backs/lamongus.jpg"} alt={"leaves"}
+                <Image height={400} width={400} src={"/backs/leavessquare.jpg"} alt={"leaves"}
                        className={"object-contain aspect-square rounded-3xl"} quality={100}/>
                 </a>
             </div>
