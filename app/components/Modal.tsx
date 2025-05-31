@@ -39,7 +39,7 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
         <div className="fixed inset-0 bg-black bg-opacity-50 w-full h-full flex items-center justify-center z-50 p3">
             <div
                 ref={modalRef}
-                className={"shadow-xl sm:w-2/3 w-full sm:h-3/4 h-2/3 animate-fadeIn m-3"}
+                className={"relative shadow-xl sm:w-2/3 w-full sm:h-3/4 h-2/3 animate-fadeIn m-3"}
             >
                 {children}
             </div>

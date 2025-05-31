@@ -53,7 +53,7 @@ export default function Quotes() {
     //                     transition={{duration: 0.4, delay: 0, once: true}}
     //         >
     //             <p className={"text-7xl"}>
-    //                 “He taught us how to code stuff very well”
+    //                 “He taught us how to hobbies stuff very well”
     //             </p>
     //             <p className={"text-2xl pt-2"}>- Wade, Class of ‘27</p>
     //         </motion.div>
@@ -63,7 +63,7 @@ export default function Quotes() {
     //                     transition={{duration: 0.4, delay: 0, once: true}}
     //         >
     //             <p className={"text-6xl"}>
-    //                 “Eddie was an amazing mentor who taught me how to code… and now I know how to code. I am the coder
+    //                 “Eddie was an amazing mentor who taught me how to hobbies… and now I know how to hobbies. I am the coder
     //                 that I am today because of Eddie”
     //             </p>
     //             <p className={"text-2xl pt-2"}>- Dana, Class of ‘27</p>

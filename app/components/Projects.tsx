@@ -26,9 +26,9 @@ export default function Projects(){
             <Tilt>
             <div
                 className={"relative w-full aspect-square hover:shadow-black hover:shadow-2xl rounded-3xl hover:scale-110 justify-self-center"}>
-                <a href={"/code"}>
-                <p className={"absolute inset-0 flex items-center justify-center sm:text-2xl text-white bg-black bg-opacity-30 rounded-3xl"}>Hobbies</p>
-                <Image height={400} width={400} src={"/backs/code.png"} alt={"Code"}
+                <a href={"/hobbies"}>
+                <p className={"absolute inset-0 flex items-center justify-center sm:text-2xl text-white bg-black bg-opacity-10 rounded-3xl"}>Hobbies</p>
+                <Image height={400} width={400} src={"/backs/watch.jpg"} alt={"watch"}
                        className={"object-contain aspect-square rounded-3xl"} quality={100}/>
                 </a>
             </div>

@@ -1,6 +1,6 @@
 // import Image from "next/image";
 import Nav from "@/app/components/Nav";
-// import Shrinker from "@/app/components/Shrinker";
+// import Translate from "@/app/components/Translate";
 import Back from "@/app/components/Back";
 import {education} from "@/app/data/education"
 import {Glow, GlowContainer} from "@/app/components/Glow";

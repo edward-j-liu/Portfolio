@@ -7,6 +7,8 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   safelist: [
+      'm-[1.2]',
+      'm-[0.8]',
       'p-[0.5]',
       'p-1',
     'p-2', // only needed here if you're generating it dynamically
@@ -22,7 +24,7 @@ export default {
         leaves: "url('/backs/leaves.jpeg')",
         clouds: "url('/backs/clouds.jpg')",
         glass: "url('/backs/glass.jpeg')",
-        building: "url('/backs/italybuilding.jpeg')",
+        building: "url('/backs/italybuilding.jpg')",
         stands: "url('/backs/offseasonstands.jpg')",
         disciples: "url('/backs/disciples.jpg')",
       },
