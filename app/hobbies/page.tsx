@@ -9,7 +9,7 @@ import { redirect } from 'next/navigation'
 export default function CodePage() {
     const handleScroll = () => {
         if (typeof window !== 'undefined') {
-            if (window.scrollY > 200) {
+            if (window.scrollY > 700) {
                 redirect("/")
             }
         }
