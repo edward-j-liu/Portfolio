@@ -34,9 +34,14 @@ export default function CodePage() {
                 <p>
                     It&#39;s often said that if you do what you love, you&#39;ll never have to work a day in your life.
                     Although I don&#39;t have a job, I consider my extracurriculars to be my hobbies in a similar sense.
-                    In my free time however, I enjoy playing videogames like a proper teenager. Besides this, I also like to collect pens and watches. I design and build my own watches using movements from common third party movement manufacturers, such as Seiko and ETA, as well as parts from eBay and Aliexpress. Finally, I enjoy web design, and in addition to designing most of the team114.org website,
+                    In my free time however, I enjoy playing videogames like a proper teenager. Besides this, I also
+                    like to collect pens and watches. I design and build my own watches using movements from common
+                    third party movement manufacturers, such as Seiko and ETA, as well as parts from eBay and
+                    Aliexpress. All of the photos were taken by me; I dabble in photography in my free time. Finally, I enjoy web design, and in addition to designing most of the team114.org
+                    website,
                     I also love adding small details to this portfolio:
                 </p>
+
             </div>
             <div className={"bg-intro h-screen w-screen bg-cover bg-fixed bg-middle items-center justify-center"}>
                 <div className={"pt-72 text-white text-9xl"}>

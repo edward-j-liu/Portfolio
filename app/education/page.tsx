@@ -9,13 +9,13 @@ export default function OffseasonPage(){
         <div>
             <Nav min={0}/>
             <div className={"flex items-center flex-col md:p-14 p-6 font-white w-screen gap-3 bg-zinc-950 bg-dot-8-s-2-zinc-900"}>
-                <p className={"text-center text-5xl md:8xl font-bold mb-4"}>Education</p>
-                <p className={"text-xl sm:w-2/3 my-6"}>It may seem strange, but I genuinely enjoy going to school. I consider myself very lucky to have great teachers and a wonderful community of classmates. I try not to let grades define me, but as a high school student that is pretty tough. Unfortunately, there isn&#39;t much else to put on a page about education. In anycase, in this page, I very tackily showcase my grades (which aren&#39;t even that good)</p>
+                <p className={"text-center text-5xl md:8xl font-bold mb-4 text-white"}>Education</p>
+                <p className={"text-xl sm:w-2/3 my-6 text-white"}>It may seem strange, but I genuinely enjoy going to school. I consider myself very lucky to have great teachers and a wonderful community of classmates. I try not to let grades define me, but as a high school student that is pretty tough. Unfortunately, there isn&#39;t much else to put on a page about education. In anycase, in this page, I very tackily showcase my grades (which aren&#39;t even that good)</p>
                 <GlowContainer>
                 {education.map((year, key) => {
                         return (
                             <Glow key={key} styling={"rounded-2xl sm:w-2/3 w-full p-1 bg-zinc-900"} color={"rgb(200,200,220)"} strength={'70%'}>
-                                <div className={"rounded-2xl w-full h-full bg-zinc-900 p-6 opacity-1 hover:opacity-[0.95]"}>
+                                <div className={"text-white rounded-2xl w-full h-full bg-zinc-900 p-6 opacity-1 hover:opacity-[0.95]"}>
                                     <p className={"text-2xl font-bold mb-12"}>{year.year}</p>
                                     <div className={"flex flex-col pt-4"}>
                                         {year.classes.map((unit, key)=>{
