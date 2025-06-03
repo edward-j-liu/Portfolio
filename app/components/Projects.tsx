@@ -3,7 +3,7 @@ import Tilt from "./Tilt"
 
 export default function Projects(){
     return(
-        <div className={"grid grid-cols-3 w-full lg:gap-x-16 sm:gap-x-4 gap-x-1"}>
+        <div className={"grid grid-cols-3 w-full lg:gap-x-10 sm:gap-x-4 gap-x-1"}>
             <Tilt>
             <div className={"relative w-full aspect-square hover:shadow-green-900 hover:shadow-2xl rounded-3xl hover:scale-110 justify-self-center"}>
                 <a href={"/education"}>

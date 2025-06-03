@@ -39,27 +39,27 @@ export default function TeachingPage() {
         <div>
             <Nav min={0}/>
             <div
-                className={"flex items-center flex-col font-white w-screen gap-3 bg-zinc-950 bg-grid-10-s-1-zinc-900 pb-16 px-3"}>
+                className={"flex items-center flex-col text-white w-screen gap-3 bg-zinc-950 bg-grid-10-s-1-zinc-900 pb-16 px-3"}>
                 <div
                     className={"align-center md:text-8xl text-5xl text-white mb-12 w-screen py-32 bg-clouds bg-cover bg-fixed items-center justify-center text-center font-bold"}>
                     <WindowTranslate translate={[120,-300]} range={[-0.5,1.5]}><p>Extracurriculars</p></WindowTranslate>
                 </div>
                 <p className={"font-white text-2xl"}>I have some extracurriculars. They&#39;re pretty cool.</p>
-                <div className={"grid grid-cols-3 w-2/3 lg:gap-x-16 sm:gap-x-4 gap-x-1 py-8"}>
+                <div className={"grid grid-cols-3 md:w-2/3 lg:gap-x-16 sm:gap-x-4 gap-x-1 py-8"}>
                     <button
                         onClick={() => setRoboticsIsOpen(true)}
-                        className="bg-zinc-900 text-white p-6 rounded-xl hover:border-2 hover:bg-zinc-950 border border-blue-600 transition aspect-3/2 relative text-left flex flex-col"
+                        className="bg-zinc-900 overflow-hidden text-white p-6 rounded-xl hover:border-2 hover:bg-zinc-950 border border-blue-600 transition aspect-3/2 relative text-left flex flex-col"
                     >
-                        <p className={"text-3xl pb-3"}>Robotics</p>
+                        <p className={"md:md:text-3xl sm:text-xl pb-3"}>Robotics</p>
                         <p>Robotics is really cool. I participate in FRC, or First Robotics Competition. In this
                             competition, teams compete to quickly design and build a robot for the years game.</p>
                         <p className={"text-slate-400"}>Learn more...</p>
                     </button>
                     <button
                         onClick={() => setmtIsOpen(true)}
-                        className="bg-zinc-900 text-white p-6 rounded-xl hover:border-2 hover:bg-zinc-950 border border-orange-600 transition aspect-3/2 relative text-left flex flex-col"
+                        className="bg-zinc-900 overflow-hidden text-white p-6 rounded-xl hover:border-2 hover:bg-zinc-950 border border-orange-600 transition aspect-3/2 relative text-left flex flex-col"
                     >
-                        <p className={"text-3xl pb-3"}>Mock Trial</p>
+                        <p className={"md:text-3xl sm:text-xl pb-3"}>Mock Trial</p>
                         <p>In the California Mock Trial competition, students have to prepare both a defense and
                             prosecution case based on a case packet with affidavits and evidence.</p>
                         <p className={"text-slate-400"}>Learn more...</p>
@@ -68,7 +68,7 @@ export default function TeachingPage() {
                         onClick={() => setArcheryIsOpen(true)}
                         className="bg-zinc-900 text-white p-6 rounded-xl hover:border-2 hover:bg-zinc-950 border border-green-800 transition aspect-3/2 relative text-left flex flex-col"
                     >
-                        <p className={"text-3xl pb-3"}>Archery</p>
+                        <p className={"md:text-3xl sm:text-xl pb-3"}>Archery</p>
                         <p>You shoot arrows at the target.</p>
                         <p className={"text-slate-400"}>Learn more...</p>
 
