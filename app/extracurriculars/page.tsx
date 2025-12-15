@@ -44,35 +44,42 @@ export default function TeachingPage() {
                     className={"align-center md:text-8xl text-5xl text-white mb-12 w-screen py-32 bg-clouds bg-cover bg-fixed items-center justify-center text-center font-bold"}>
                     <WindowTranslate translate={[120,-300]} range={[-0.5,1.5]}><p>Extracurriculars</p></WindowTranslate>
                 </div>
-                <p className={"font-white text-2xl"}>I have some extracurriculars. They&#39;re pretty cool.</p>
-                <div className={"grid grid-cols-3 md:w-2/3 lg:gap-x-16 sm:gap-x-4 gap-x-1 py-8"}>
+                <div className={'md:w-2/3 w=full'}>
+                    <p className={"font-white md:text-2xl text-xl px-10 md:px-0"}>Extracurriculars are what I consider to be the most
+                        important part of my school experience. Most friends I have are through extracurriculars, not
+                        shared classes.</p>
+                </div>
+                <div className={"grid grid-cols-3 md:w-2/3 w-full lg:gap-x-16 sm:gap-x-4 gap-x-1 py-8"}>
+                    <button
+                        onClick={() => setArcheryIsOpen(true)}
+                        className="bg-zinc-900 text-white p-6 rounded-xl hover:border-2 hover:bg-zinc-950 border border-green-800 transition aspect-3/2 relative text-left flex flex-col"
+                    >
+                        <p className={"md:text-3xl sm:text-lg pb-3"}>Archery</p>
+                        <p className={"md:text-base text-sm"}>Archery is my all time favorite sport, here&#39;s why:</p>
+                        <p className={"text-slate-400 md:text-base text-sm"}>Learn more...</p>
+
+                    </button>
                     <button
                         onClick={() => setRoboticsIsOpen(true)}
                         className="bg-zinc-900 overflow-hidden text-white p-6 rounded-xl hover:border-2 hover:bg-zinc-950 border border-blue-600 transition aspect-3/2 relative text-left flex flex-col"
                     >
-                        <p className={"md:md:text-3xl sm:text-xl pb-3"}>Robotics</p>
-                        <p>Robotics is really cool. I participate in FRC, or First Robotics Competition. In this
+                        <p className={"md:md:text-3xl sm:text-lg pb-3"}>Robotics</p>
+                        <p className={"md:text-base text-sm"}>I participate in FRC, or First Robotics Competition. In
+                            this
                             competition, teams compete to quickly design and build a robot for the years game.</p>
-                        <p className={"text-slate-400"}>Learn more...</p>
+                        <p className={"text-slate-400 md:text-base text-sm"}>Learn more...</p>
                     </button>
                     <button
                         onClick={() => setmtIsOpen(true)}
                         className="bg-zinc-900 overflow-hidden text-white p-6 rounded-xl hover:border-2 hover:bg-zinc-950 border border-orange-600 transition aspect-3/2 relative text-left flex flex-col"
                     >
-                        <p className={"md:text-3xl sm:text-xl pb-3"}>Mock Trial</p>
-                        <p>In the California Mock Trial competition, students have to prepare both a defense and
+                        <p className={"md:text-3xl sm:text-lg pb-3"}>Mock Trial</p>
+                        <p className={"md:text-base text-sm"}>In the California Mock Trial competition, students have to
+                            prepare both a defense and
                             prosecution case based on a case packet with affidavits and evidence.</p>
-                        <p className={"text-slate-400"}>Learn more...</p>
+                        <p className={"text-slate-400 md:text-base text-sm"}>Learn more...</p>
                     </button>
-                    <button
-                        onClick={() => setArcheryIsOpen(true)}
-                        className="bg-zinc-900 text-white p-6 rounded-xl hover:border-2 hover:bg-zinc-950 border border-green-800 transition aspect-3/2 relative text-left flex flex-col"
-                    >
-                        <p className={"md:text-3xl sm:text-xl pb-3"}>Archery</p>
-                        <p>You shoot arrows at the target.</p>
-                        <p className={"text-slate-400"}>Learn more...</p>
 
-                    </button>
                 </div>
                 <Modal isOpen={mtIsOpen} onClose={() => setmtIsOpen(false)}>
                     <div
@@ -80,7 +87,7 @@ export default function TeachingPage() {
                         ref={roboticsModal}>
                         <h2 className="text-3xl text-black font-bold mb-4">Mock Trial</h2>
                         <p className="mb-4 text-black">Ever since watching a playthrough of Ace Attorney during the
-                            breaks of my online school (I do not have any game consoles), I have wanted to do Mock
+                            breaks of covid online school, I have wanted to do Mock
                             Trial. The logic and deductive reasoning has always appealed to me. Therefore, Mock Trial
                             club was the very first high school club I joined.</p>
                         <p className="mb-4 text-black">Even though I was sick for the first couple meetings, I quickly
@@ -96,7 +103,7 @@ export default function TeachingPage() {
                         <Image
                             src={'/backs/mocktrialdefense.png'} alt={"mocktrial"} height={1328} width={780}
                             className={"rounded-xl mb-2"}/>
-                        <p className={"text-slate-400 mb-4 text-center"}>Picture of Mock Trial Prosecution team before competition. I wonder which one is me</p></div>
+                        <p className={"text-slate-400 mb-4 text-center"}>Picture of Mock Trial Prosecution team before competition. I wonder which one is me?</p></div>
                             <button
                                 onClick={() => setmtIsOpen(false)}
                                 className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
@@ -110,7 +117,23 @@ export default function TeachingPage() {
                         className={"flex flex-col relative w-full h-full bg-white rounded-xl p-8 overflow-y-scroll text-black"}
                         ref={roboticsModal}>
                         <h2 className="text-3xl text-black font-bold mb-4">Archery</h2>
-                        <p className="mb-4 text-black">At archery, I shoot arrows at the target until they hit.</p>
+                        <p className="mb-4 text-black">
+                            At archery, I shoot arrows at the target until they hit. I&#39;ve shot both barebow and
+                            olympic recurve formats, mainly indoors. However, my impact goes much deeper than that. As a
+                            level 1 certified archery coach with USArchery, I give private lessons at a local club to
+                            earn some spending money on the side. It is really challenging dealing with the individual
+                            quirks of every student, both in learning and in archery, but seeing them run up to their
+                            parents and excitedly proclaim what they learned and how bullseyes they hit is the highlight
+                            of my week.
+                        </p>
+                        <p className="mb-4 text-black">
+                            I also put my coaching skills to a good cause. Every weekend, I spend about 40 minutes of my
+                            own time to set up the range for the special needs kids in the club. I remember who likes
+                            shooting at what distance, and I help them setup their bows when they&#39;re struggling. When
+                            I&#39;m not coaching or shooting, I&#39;m making sure that the range is safe, and act as a range master: signalling when it is
+                            safe to grab arrows, and when it is safe to shoot. With my club, I&#39;ve also organized volunteering events. So far, we&#39;ve provided a free summer camp to underprivileged kids in Alviso, and we were volunteers at the CA state outdoor competition in Gilroy.
+                        </p>
+
                         <button
                             onClick={() => setArcheryIsOpen(false)}
                             className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
@@ -188,7 +211,7 @@ export default function TeachingPage() {
                             </button>
                         </div>
                 </Modal>
-                <h1 className={"font-bold text-6xl pt-6 pb-12"}>List of STUFF</h1>
+                <h1 className={"font-bold text-6xl pt-6 pb-12"}>Some things I did...</h1>
                 <GlowContainer>
                     {extracurriculars.map((unit, key) => {
                         return (

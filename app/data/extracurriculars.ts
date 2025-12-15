@@ -6,9 +6,12 @@ export interface event{
 }
 //     {for: "", title: "", date: "", description: ""},
 export const extracurriculars:event[] = [
+    {for: "Archery", title: "Taught at Compasspoint Mentorship", date: "July 2025", description: "Taught archery to low-income kids in Alviso, teaching them basic archery for 2 weeks. Created curriculum, and setup the range"},
+    {for: "Archery", title: "Helped organize outdoor nationals", date: "June 2025", description: "Mainly moved targets around and helped pack up"},
     {for: "Robotics", title: "Semifinalists at San Francisco Regional", date: "May 2025", description: ""},
+    {for: "Mock Trial", title: "Became President of LAHS Mock Trial Club", date: "May 2025", description: ""},
     {for: "Robotics", title: "Won Madtown Throwdown", date: "November 2024", description: "a very competitive offseason competition"},
-    {for: "Mock Trial", title: "Started teaching", date: "December 2024", description: "mock trial writing and courtroom procedure using skills I've learned throughout the years, eager to give back to the team"},
+    {for: "Mock Trial", title: "Started teaching", date: "November 2024", description: "mock trial writing and courtroom procedure to younger kids"},
     {for: "Mock Trial", title: "Attended Columbia's Legal Studies Summer Program", date: "July 2024", description: "in New York to further my skills in Mock Trial"},
     {for: "Robotics", title: "Became Scouting/Strategy lead of Team 114", date: "June 2024", description: "and so began a brutal dictatorship"},
     {for: "Robotics", title: "East Bay Regional", date: "March 2024", description: "as third seeded alliance captain"},

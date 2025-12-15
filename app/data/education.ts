@@ -18,7 +18,7 @@ export const education:year[] = [
             {name: "American Lit", school: "LAHS", grade: "A",},
             {name: "AP Mandarin", school: "LAHS", grade: "A",},
             {name: "Photography", school: "LAHS", grade: "A",},
-            {name: "Robotics 2", school: "LAHS", grade: "B",},
+            {name: "Robotics 2", school: "LAHS", grade: "A"},
         ]
     },
     {
