@@ -10,7 +10,7 @@ export default function OffseasonPage(){
             <Nav min={0}/>
             <div className={"flex items-center flex-col md:p-14 p-6 text-white w-screen gap-3 bg-zinc-950 bg-dot-8-s-2-zinc-900"}>
                 <p className={"text-center text-5xl md:8xl font-bold mb-4 text-white"}>Education</p>
-                <p className={"text-xl sm:w-2/3 my-6 text-white"}>It may seem strange, but I genuinely enjoy going to school. I consider myself very lucky to have great teachers and a wonderful community of classmates. I try not to let grades define me, but as a high school student that is pretty tough. Unfortunately, there isn&#39;t much else to put on a page about education. In anycase, in this page, I very tackily showcase my grades (which aren&#39;t even that good)</p>
+                <p className={"text-xl sm:w-2/3 my-6 text-white"}>Grades don&#39;t define you, but everybody still asks about them anyways. Here you go</p>
                 <GlowContainer>
                 {education.map((year, key) => {
                         return (

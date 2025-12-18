@@ -154,12 +154,16 @@ export default function TeachingPage() {
                             sure everybody scouts the matches I assigned them, and often fill in if a member is missing
                             (I believe in leading by example).
                         </p>
-                        <p className="mb-44 text-black">In robotics, my projects mainly revolve around strategy and
+                        <p className="mb-12 text-black">In robotics, my projects mainly revolve around strategy and
                             app
-                            code, with some side projects on the actual robot. For example, in the 2025 season
-                            Reefscape, my first project was to code the scouting app to accomodate the new game, and
+                            code, with some side projects on the actual robot.
+                        </p>
+                        <p className="mb-8 text-bold text-3xl text-black">2025 season</p>
+                        <p className="mb-12 text-black">
+                            For Reefscape, my first project was to code the scouting app to accomodate the new game, and
                             my second project was to help code the elevator mechanism.</p>
-                        <div className={"flex flex-row items-center justify-center align-center justify-center gap-x-2 mb-44"}>
+                        <div
+                            className={"flex flex-row items-center justify-center align-center justify-center gap-x-2 mb-12"}>
                             <div className={"p-6"}><Translate scrollContainerRef={roboticsModal} range={[-0.2, 1.2]}
                                                               translate={[50, -50]}><Image
                                 src={'/backs/data.png'} alt={"data"} height={1716} width={818}
@@ -174,7 +178,7 @@ export default function TeachingPage() {
                                     strengths and weaknesses of other robots. The choice in robot could make or break
                                     your
                                     victory. Because of this, the scouting app, eaglescout, is
-                                    my main project every year. Because teams other than just 114 use it, I that the
+                                    my main project every year. Because teams other than just 114 use it, the
                                     pressure to update it is incredibly high.</p>
                                 <p className="text-black">During my first year in control of app development I
                                     created
@@ -196,26 +200,56 @@ export default function TeachingPage() {
                                     and an
                                     almost state machine.</p>
                                 <p className="text-black">Unfortunately, because of the redesign and my inability
-                                    to code java, I was unable to code the elevator on Theseus, the second robot of the year.</p>
+                                    to code java, I was unable to code the elevator on Theseus, the second robot of the
+                                    year.</p>
                             </div>
                             <div className={"p-6"}><Translate scrollContainerRef={roboticsModal} range={[-0.2, 1.2]}
                                                               translate={[50, -50]}><Image
                                 src={'/backs/elevator.png'} alt={"elevator"} height={645} width={570}
                                 className={"rounded-xl"}/></Translate></div>
                         </div>
+                        <p className="mb-8 text-bold text-3xl text-black">2026 offseason</p>
+                        <div className={"justify-center align-middle flex flex-col"}>
+                            <p className="mb-4 font-bold text-black text-xl">Scouting</p>
+                            <p className="mb-4 text-black">This offseason, I was mainly focused on bringing new members
+                                up to speed on scouting and competitions. The app also needed updating, as our Over The
+                                Air updating library got deprecated over the summer.</p>
+                            <p className="text-black">For the new members, I once again made scouter slides and
+                                practices for
+                                Reefscape. However, this seemed to not work, as at the one competition that I was able
+                                to go to, scouters missed several rounds and had a lot of false information.</p></div>
+                        <div className={"flex flex-row items-center gap-x-2 mb-24"}>
+                            <div className={"justify-center align-middle flex flex-col"}>
+                                <p className="mt-12 mb-4 font-bold text-black text-xl">Logistics</p>
+                                <p className="mb-4 text-black">Another thing I did this semester was handle some small
+                                    things for multiple different people. From driving the robot to the Kohl&#39;s
+                                    practice field to taking pictures of the team for the team114.org website, I&#39;ve
+                                    tried to help out with as many small tasks as possible.</p>
+                            </div>
+                            <div className={"p-6 flex flex-col"}><Translate scrollContainerRef={roboticsModal}
+                                                                            range={[-0.2, 1.2]}
+                                                                            translate={[50, -50]}><Image
+                                src={'/backs/prototype.jpeg'} alt={"prototype"} height={645} width={570}
+                                className={"rounded-xl"}/></Translate>
+                                <text>Prototype I made with Max</text>
+                            </div>
+
+                        </div>
+
                         <button
                             onClick={() => setRoboticsIsOpen(false)}
-                                className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
-                            >
-                                Close
-                            </button>
-                        </div>
+                            className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+                        >
+                            Close
+                        </button>
+                    </div>
                 </Modal>
                 <h1 className={"font-bold text-6xl pt-6 pb-12"}>Some things I did...</h1>
                 <GlowContainer>
                     {extracurriculars.map((unit, key) => {
                         return (
-                            <WindowTranslate translate={[-80,-10,0,10,80]} key={key} range={[-0.2,0.2,0.5,0.8,1.2]}><Card thing={unit}/></WindowTranslate>
+                            <WindowTranslate translate={[-80, -10, 0, 10, 80]} key={key}
+                                             range={[-0.2, 0.2, 0.5, 0.8, 1.2]}><Card thing={unit}/></WindowTranslate>
                         )
                     })}
                 </GlowContainer>
