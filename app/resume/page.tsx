@@ -1,7 +1,5 @@
 import Nav from "@/app/components/Nav";
-// import Quotes from "@/app/components/Quotes";
-import Image from "next/image";
-import {Glow, GlowContainer} from "@/app/components/Glow";
+
 import {WindowTranslate} from "@/app/components/Translate"
 import Back from "@/app/components/Back";
 

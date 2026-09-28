@@ -1,6 +1,6 @@
 "use client"
 import Nav from "@/app/components/Nav";
-import {Translate, WindowTranslate} from "@/app/components/Translate";
+import {WindowTranslate} from "@/app/components/Translate";
 import Back from "@/app/components/Back";
 import {useEffect} from "react";
 import { redirect } from 'next/navigation'
