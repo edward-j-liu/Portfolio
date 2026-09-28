@@ -36,8 +36,8 @@ export default function Nav({min}:{min: number}){
                 }
             >
                 <Link href="/" className={"hover:text-sky-300"}>Home</Link>
-                <Link href="/education" className={"hover:text-sky-300"}>Education</Link>
-                <Link href="/extracurriculars" className={"hover:text-sky-300"}>Extracurriculars</Link>
+                <Link href="/experience" className={"hover:text-sky-300"}>Experience</Link>
+                <Link href="/resume" className={"hover:text-sky-300"}>Resume</Link>
                 <Link href="/hobbies" className={"hover:text-sky-300"}>Hobbies</Link>
             </nav>
         </motion.div>)

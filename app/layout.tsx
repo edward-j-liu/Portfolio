@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 // import Footer from '@/app/components/Footer'
-import {Space_Grotesk} from 'next/font/google'
+import {Open_Sans} from 'next/font/google'
 
-const space = Space_Grotesk({
-  weight: '400',
-  subsets: ['latin'],
+const open = Open_Sans({
+    weight: '400',
+    subsets: ['latin'],
 })
 
 export const metadata: Metadata = {
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className = {space.className}
+        className = {open.className}
       >
         {children}
         {/*<Footer />*/}
