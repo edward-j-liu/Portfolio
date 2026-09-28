@@ -16,7 +16,7 @@ export default function Linkgrid(){
             <Tilt>
             <div
                 className={"relative w-full aspect-square hover:shadow-red-900 hover:shadow-2xl rounded-3xl hover:scale-110 justify-self-center"}>
-                <a href={"/extracurriculars"}>
+                <a href={"/resume"}>
                 <p className={"absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-30 rounded-3xl"}>Resume</p>
                 <Image height={400} width={400} src={"/backs/archery.jpg"} alt={"archery"}
                        className={"object-contain aspect-square rounded-3xl"} quality={100}/>
