@@ -117,7 +117,7 @@ export default function experience() {
         <div className={"slate-500"}>
             <Nav min={0}/>
             <div className={"flex w-screen bg-building bg-cover bg-fixed bg-bottom items-center justify-center"}>
-                <div className={"text-white text-9xl align-middle py-20 h-full w-full bg-black bg-opacity-40"}>
+                <div className={"text-white text-5xl sm:text-7xl md:text-9xl align-middle py-20 h-full w-full bg-black bg-opacity-40"}>
                     <WindowTranslate range={[0, 1]} translate={[2, -2]}><p>Experience</p></WindowTranslate>
                 </div>
             </div>
