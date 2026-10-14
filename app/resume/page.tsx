@@ -12,7 +12,7 @@ export default function experience() {
                     <WindowTranslate range={[0, 1]} translate={[2, -2]}><p>Resume</p></WindowTranslate>
                 </div>
             </div>
-            <div className={"h-dvh w-full bg-red-400 overflow-hidden"}>
+            <div className={"h-dvh w-full overflow-hidden"}>
                 <iframe src="/Edward_Liu_Resume_Simple.pdf" width="100%" height="100%" style={{border: 0, flex: 1}}></iframe>
             </div>
             <Back/>

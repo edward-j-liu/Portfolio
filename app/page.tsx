@@ -48,12 +48,11 @@ export default function Home() {
                 <p className="text-2xl sm:text-3xl md:text-4xl pb-4">Welcome to my Portfolio!</p>
                 <p className="text-base sm:text-xl md:text-2xl leading-relaxed">
                     My name is Edward Liu, I&#39;m a student studying Data Science and Statistics at
-                    University of California, Santa Barbara. My interests lie at the intersection of
-                    statistics, machine learning, and software engineering, particularly in applications
-                    where quantitative insight can create meaningful real-world impact. From research in
+                    University of California, Santa Barbara. I hope to become truly multidisciplinary, studying the intersection of
+                    statistics, machine learning, and software engineering. I hope to apply this knowledge in order to bring real-world results from quantitative insight. From research in
                     biomedical and healthcare data to developing software for competitive robotics, I seek
                     out challenging problems where I can learn quickly, contribute meaningfully, and turn
-                    ideas into results.
+                    ideas into impact.
                 </p>
 
                 <div className="pt-12">
