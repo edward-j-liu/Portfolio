@@ -13,7 +13,7 @@ export default function experience() {
                 </div>
             </div>
             <div className={"h-screen w-screen"}>
-            <iframe src="/Edward_Liu_Resume.pdf" width="100%" height="100%" style={{border: 0}}></iframe>
+            <iframe src="/Edward_Liu_Resume_Simple.pdf" width="100%" height="100%" style={{border: 0}}></iframe>
             </div>
             <Back/>
         </div>
