@@ -9,8 +9,6 @@ export function SimpleGlow({ children, styling, color}: { children: React.ReactN
     const [onCard, setOnCard] = useState(false);
     const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
         const { left, top} = e.currentTarget.getBoundingClientRect();
-        // mouseX.set(e.clientX - left);
-        // mouseY.set(e.clientY - top);
         setOnCard(true);
         mouseX.set(e.clientX-left);
         mouseY.set(e.clientY-top);

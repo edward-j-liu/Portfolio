@@ -55,7 +55,7 @@ export default function Home() {
                     ideas into impact.
                 </p>
 
-                <div className="pt-12">
+                <div className="py-12">
                     <Linkgrid />
                     <Footer />
                 </div>
